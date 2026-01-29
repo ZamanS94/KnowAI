@@ -1,7 +1,8 @@
 from pathlib import Path
 import os
 import torch
-from ErrorRateCalculation import calTechTermsError, calDiffErros
+from ErrorRateCalculation_sequenceMatching import calTechTermsError, calDiffErros
+from ErrorRateCalculation_jiwer import calculate_diff_errors
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -61,6 +62,11 @@ if __name__ == "__main__":
                 _GT_words, _Transcription_words, wer, deleted_rate, added_rate, SpellingError_rate = calDiffErros(
                     gtFile, transcriptionFile, errorReport, transcription_language
                 )
+                '''
+                _GT_words, _Transcription_words, wer, deleted_rate, added_rate, SpellingError_rate = calculate_diff_errors(
+                    gtFile, transcriptionFile, errorReport, transcription_language
+                )
+                '''
                 total_GTwords += _GT_words
                 total_Transcriptionwords += _Transcription_words
                 total_wer += wer * _GT_words / 100
