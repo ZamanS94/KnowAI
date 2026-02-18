@@ -1,0 +1,147 @@
+FILE: Sample 14.json vs Sample 14.json
+------------------------------------------------------------
+Raportin tyyppi | FN (GT present, pred missing)
+Tarkkailijan nimi | similarity=1.000 | threshold=0.9 | PASS
+Tarkkailijaorganisaatio | TN (both missing/empty)
+Tarkkailija on kesätyöntekijä | TN (both missing/empty)
+Tapahtuma-aika | similarity=1.000 | threshold=0.9 | PASS
+Sijaintitiedot | similarity=0.977 | threshold=0.9 | PASS
+Kuva | TN (both missing/empty)
+Tapahtuma oli vakava | similarity=1.000 | threshold=0.9 | PASS
+Tapahtuma-alueen kuvaus | similarity=0.947 | threshold=0.8 | PASS
+Mahdolliset seuraukset | TN (both missing/empty)
+Toteutetut toimenpiteet | similarity=0.960 | threshold=0.8 | PASS
+Ehdotus | TN (both missing/empty)
+
+SUMMARY PER FILE
+TP: 6, FP: 0, FN: 1, TN: 5
+Overall Match: 85.71%
+Exact Fields Match: 100.00%
+Semantic Fields Match: 100.00%
+
+FILE: Sample 1.json vs Sample 1.json
+------------------------------------------------------------
+Raportin tyyppi | FN (GT present, pred missing)
+Tarkkailijan nimi | similarity=1.000 | threshold=0.9 | PASS
+Tarkkailijaorganisaatio | TN (both missing/empty)
+Tarkkailija on kesätyöntekijä | TN (both missing/empty)
+Tapahtuma-aika | similarity=1.000 | threshold=0.9 | PASS
+Sijaintitiedot | FN (GT present, pred missing)
+Kuva | TN (both missing/empty)
+Tapahtuma oli vakava | similarity=1.000 | threshold=0.9 | PASS
+Tapahtuma-alueen kuvaus | similarity=0.932 | threshold=0.8 | PASS
+Mahdolliset seuraukset | TN (both missing/empty)
+Toteutetut toimenpiteet | FN (GT present, pred missing)
+Ehdotus | TN (both missing/empty)
+
+SUMMARY PER FILE
+TP: 4, FP: 0, FN: 3, TN: 5
+Overall Match: 57.14%
+Exact Fields Match: 100.00%
+Semantic Fields Match: 100.00%
+
+FILE: Sample 11.json vs Sample 11.json
+------------------------------------------------------------
+Raportin tyyppi | FN (GT present, pred missing)
+Tarkkailijan nimi | similarity=1.000 | threshold=0.9 | PASS
+Tarkkailijaorganisaatio | TN (both missing/empty)
+Tarkkailija on kesätyöntekijä | TN (both missing/empty)
+Tapahtuma-aika | similarity=1.000 | threshold=0.9 | PASS
+Sijaintitiedot | similarity=0.947 | threshold=0.9 | PASS
+Kuva | TN (both missing/empty)
+Tapahtuma oli vakava | similarity=1.000 | threshold=0.9 | PASS
+Tapahtuma-alueen kuvaus | similarity=0.982 | threshold=0.8 | PASS
+Mahdolliset seuraukset | FP (pred present, GT missing)
+Toteutetut toimenpiteet | TN (both missing/empty)
+Ehdotus | FN (GT present, pred missing)
+
+SUMMARY PER FILE
+TP: 5, FP: 1, FN: 2, TN: 4
+Overall Match: 62.50%
+Exact Fields Match: 100.00%
+Semantic Fields Match: 100.00%
+
+FILE: Sample 12.json vs Sample 12.json
+------------------------------------------------------------
+Raportin tyyppi | similarity=1.000 | threshold=0.9 | PASS
+Tarkkailijan nimi | similarity=1.000 | threshold=0.9 | PASS
+Tarkkailijaorganisaatio | TN (both missing/empty)
+Tarkkailija on kesätyöntekijä | TN (both missing/empty)
+Tapahtuma-aika | TN (both missing/empty)
+Sijaintitiedot | similarity=1.000 | threshold=0.9 | PASS
+Kuva | TN (both missing/empty)
+Tapahtuma oli vakava | similarity=1.000 | threshold=0.9 | PASS
+Tapahtuma-alueen kuvaus | similarity=0.919 | threshold=0.8 | PASS
+Mahdolliset seuraukset | similarity=0.955 | threshold=0.8 | PASS
+Toteutetut toimenpiteet | similarity=0.922 | threshold=0.8 | PASS
+Ehdotus | FN (GT present, pred missing)
+
+SUMMARY PER FILE
+TP: 7, FP: 0, FN: 1, TN: 4
+Overall Match: 87.50%
+Exact Fields Match: 100.00%
+Semantic Fields Match: 100.00%
+
+FILE: Sample 2.json vs Sample 2.json
+------------------------------------------------------------
+Raportin tyyppi | FN (GT present, pred missing)
+Tarkkailijan nimi | TN (both missing/empty)
+Tarkkailijaorganisaatio | TN (both missing/empty)
+Tarkkailija on kesätyöntekijä | TN (both missing/empty)
+Tapahtuma-aika | FN (GT present, pred missing)
+Sijaintitiedot | FN (GT present, pred missing)
+Kuva | TN (both missing/empty)
+Tapahtuma oli vakava | similarity=1.000 | threshold=0.9 | PASS
+Tapahtuma-alueen kuvaus | similarity=0.932 | threshold=0.8 | PASS
+Mahdolliset seuraukset | TN (both missing/empty)
+Toteutetut toimenpiteet | similarity=0.790 | threshold=0.8 | ERROR
+Ehdotus | TN (both missing/empty)
+
+SUMMARY PER FILE
+TP: 3, FP: 0, FN: 3, TN: 6
+Overall Match: 50.00%
+Exact Fields Match: 100.00%
+Semantic Fields Match: 50.00%
+
+FILE: Sample 4.json vs Sample 4.json
+------------------------------------------------------------
+Raportin tyyppi | similarity=1.000 | threshold=0.9 | PASS
+Tarkkailijan nimi | TN (both missing/empty)
+Tarkkailijaorganisaatio | TN (both missing/empty)
+Tarkkailija on kesätyöntekijä | TN (both missing/empty)
+Tapahtuma-aika | similarity=1.000 | threshold=0.9 | PASS
+Sijaintitiedot | similarity=0.900 | threshold=0.9 | PASS
+Kuva | TN (both missing/empty)
+Tapahtuma oli vakava | similarity=1.000 | threshold=0.9 | PASS
+Tapahtuma-alueen kuvaus | similarity=0.858 | threshold=0.8 | PASS
+Mahdolliset seuraukset | TN (both missing/empty)
+Toteutetut toimenpiteet | similarity=0.980 | threshold=0.8 | PASS
+Ehdotus | TN (both missing/empty)
+
+SUMMARY PER FILE
+TP: 6, FP: 0, FN: 0, TN: 6
+Overall Match: 100.00%
+Exact Fields Match: 100.00%
+Semantic Fields Match: 100.00%
+
+FILE: Sample 3.json vs Sample 3.json
+------------------------------------------------------------
+Raportin tyyppi | similarity=1.000 | threshold=0.9 | PASS
+Tarkkailijan nimi | TN (both missing/empty)
+Tarkkailijaorganisaatio | TN (both missing/empty)
+Tarkkailija on kesätyöntekijä | TN (both missing/empty)
+Tapahtuma-aika | similarity=1.000 | threshold=0.9 | PASS
+Sijaintitiedot | similarity=0.955 | threshold=0.9 | PASS
+Kuva | TN (both missing/empty)
+Tapahtuma oli vakava | similarity=1.000 | threshold=0.9 | PASS
+Tapahtuma-alueen kuvaus | similarity=0.921 | threshold=0.8 | PASS
+Mahdolliset seuraukset | TN (both missing/empty)
+Toteutetut toimenpiteet | similarity=0.929 | threshold=0.8 | PASS
+Ehdotus | TN (both missing/empty)
+
+SUMMARY PER FILE
+TP: 6, FP: 0, FN: 0, TN: 6
+Overall Match: 100.00%
+Exact Fields Match: 100.00%
+Semantic Fields Match: 100.00%
+

@@ -1,0 +1,63 @@
+From Custom Evaluation
+Sample 14.json: PASS
+From Judge LLM
+SCORE: 0.4
+THRESHOLD: 0.85
+PASSED: False
+REASONING: The extracted JSON is missing the value for 'Raportin tyyppi', which is a required field, resulting in a significant penalty. While other fields matched the source text well, the absence of this key detail detracts from the overall correctness and completeness.
+
+================================================================================
+From Custom Evaluation
+Sample 1.json: FAIL
+From Judge LLM
+SCORE: 0.3
+THRESHOLD: 0.85
+PASSED: False
+REASONING: The extracted JSON lacks several required fields, including 'Raportin tyyppi', 'Sijaintitiedot', 'Toteutetut toimenpiteet', and 'Ehdotus', resulting in incomplete information. While the names and dates were correctly captured, other key details were either omitted or misrepresented, such as the exact location description and actions taken, which could lead to significant misinterpretations.
+
+================================================================================
+From Custom Evaluation
+Sample 11.json: FAIL
+From Judge LLM
+SCORE: 0.4
+THRESHOLD: 0.85
+PASSED: False
+REASONING: The extracted JSON is missing the 'Raportin tyyppi' and 'Toteutetut toimenpiteet' fields, which are required and present in the ground truth JSON. Additionally, 'Sijaintitiedot' is slightly inaccurate with 'lanhasahoilla' instead of the exact 'lanhasahat'. This results in a lack of completeness and correctness in the extraction.
+
+================================================================================
+From Custom Evaluation
+Sample 12.json: PASS
+From Judge LLM
+SCORE: 0.7
+THRESHOLD: 0.85
+PASSED: False
+REASONING: The extracted JSON closely follows the structure of the ground truth, successfully capturing most fields. However, the event area description contains additional details not present in the original input, indicating a minor hallucination. The suggestions field is also left empty, unlike the ground truth, affecting completeness.
+
+================================================================================
+From Custom Evaluation
+Sample 2.json: FAIL
+From Judge LLM
+SCORE: 0.2
+THRESHOLD: 0.85
+PASSED: False
+REASONING: The extracted JSON is missing key required fields, specifically 'Raportin tyyppi', 'Tapahtuma-aika', and 'Sijaintitiedot', which are present in the ground truth. Additionally, there are hallucinated details in the descriptions, such as the additional context given about the praise towards the worker. This results in a significant misalignment with the required accuracy and completeness.
+
+================================================================================
+From Custom Evaluation
+Sample 4.json: PASS
+From Judge LLM
+SCORE: 0.6
+THRESHOLD: 0.85
+PASSED: False
+REASONING: The extracted JSON is largely accurate but contains significant shortcomings. The 'Sijaintitiedot' field omits important details by not including 'puolella (Trukit ja ajoneuvot)' as specified in the ground truth, which alters the completeness of the information. However, other fields match correctly, and the format adheres to the required structure. These shortcomings prevent a higher score.
+
+================================================================================
+From Custom Evaluation
+Sample 3.json: PASS
+From Judge LLM
+SCORE: 0.8
+THRESHOLD: 0.85
+PASSED: False
+REASONING: The extracted JSON includes all required fields from the ground truth and does not contain any hallucinations. However, the Sijaintitiedot field was partially accurate, as it includes additional text that was not present in the ground truth. The final score reflects the fact that while the response was largely aligned with the evaluation steps, there were minor inaccuracies.
+
+================================================================================
